@@ -67,7 +67,6 @@ interface ComponentProps {
   isStreaming,  // boolean - true while streaming
   error,        // Error | null
   send,         // (prompt: string) => void
-  abort,        // () => void
 } = useUIStream({
   api: string,
 });`}</Code>
